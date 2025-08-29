@@ -575,7 +575,7 @@ impl eframe::App for MixApp {
                 let (rect, _) = ui.allocate_exact_size(egui::vec2(24.0, 14.0), Sense::hover());
                 ui.painter().rect_filled(rect, 2.0, c);
             });
-            ui.add(egui::Slider::new(&mut self.brightness, 0.5..=2.0).text("预览亮度"));
+            ui.add(egui::Slider::new(&mut self.brightness, 0.5..=3.0).text("预览亮度"));
         });
 
         // 底部：帧与预览控制
