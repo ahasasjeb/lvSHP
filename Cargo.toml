@@ -1,0 +1,14 @@
+[package]
+name = "lvjiaShpEdit"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.27"
+egui_extras = "0.27"
+rfd = "0.14"
+image = { version = "0.25", default-features = false, features = ["png", "jpeg", "gif"] }
+apng = "0.3"
+gif = "0.13"
+imageproc = "0.23"
+rust-embed = "8"
